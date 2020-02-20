@@ -7,15 +7,30 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        let d = UserDefaults.standard
+        if d.bool(forKey: "firstlaunch") == false {
+            d.set(true, forKey: "firstlaunch")
+            d.set("192.168.0.1", forKey: "mqttHost")
+            d.set("yourtopic", forKey: "mqttTopic")
+            d.set(1883, forKey: "mqttPort")
+        }
+        
         return true
+    }
+    
+    private func application(_ application: UIApplication, didReceive notification: UNNotification) {
+        UIApplication.shared.applicationIconBadgeNumber = 0
     }
 
     // MARK: UISceneSession Lifecycle

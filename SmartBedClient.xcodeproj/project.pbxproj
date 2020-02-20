@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15ECCA34B6841C579F634FBF /* Pods_SmartBedClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B23DE52BC68278D71A48517 /* Pods_SmartBedClient.framework */; };
 		1CE640B023E720AC000E4929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE640AF23E720AC000E4929 /* AppDelegate.swift */; };
 		1CE640B223E720AC000E4929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE640B123E720AC000E4929 /* SceneDelegate.swift */; };
-		1CE640B423E720AC000E4929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE640B323E720AC000E4929 /* ViewController.swift */; };
 		1CE640B723E720AC000E4929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE640B523E720AC000E4929 /* Main.storyboard */; };
 		1CE640B923E720AD000E4929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE640B823E720AD000E4929 /* Assets.xcassets */; };
 		1CE640BC23E720AD000E4929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE640BA23E720AD000E4929 /* LaunchScreen.storyboard */; };
+		1CE640C423E7220A000E4929 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CE640C323E7220A000E4929 /* GoogleService-Info.plist */; };
+		1CE640C623E72366000E4929 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE640C523E72366000E4929 /* AuthViewController.swift */; };
+		1CE640C823E7239C000E4929 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE640C723E7239C000E4929 /* Extensions.swift */; };
+		1CE640CA23E723D9000E4929 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE640C923E723D9000E4929 /* StatusViewController.swift */; };
+		1CE640CC23E72406000E4929 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE640CB23E72406000E4929 /* Classes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CE640AC23E720AC000E4929 /* SmartBedClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBedClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE640AF23E720AC000E4929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE640B123E720AC000E4929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CE640B323E720AC000E4929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CE640B623E720AC000E4929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CE640B823E720AD000E4929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE640BB23E720AD000E4929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE640BD23E720AD000E4929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE640C323E7220A000E4929 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CE640C523E72366000E4929 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		1CE640C723E7239C000E4929 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1CE640C923E723D9000E4929 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		1CE640CB23E72406000E4929 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		37C5A8164E1D0D58D5737894 /* Pods-SmartBedClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartBedClient.debug.xcconfig"; path = "Target Support Files/Pods-SmartBedClient/Pods-SmartBedClient.debug.xcconfig"; sourceTree = "<group>"; };
+		6409FD6C0346656F4BEB0799 /* Pods-SmartBedClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartBedClient.release.xcconfig"; path = "Target Support Files/Pods-SmartBedClient/Pods-SmartBedClient.release.xcconfig"; sourceTree = "<group>"; };
+		9B23DE52BC68278D71A48517 /* Pods_SmartBedClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartBedClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15ECCA34B6841C579F634FBF /* Pods_SmartBedClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				1CE640AE23E720AC000E4929 /* SmartBedClient */,
 				1CE640AD23E720AC000E4929 /* Products */,
+				632D9AD795CC1B74B133E7F7 /* Pods */,
+				DEC0384D1459FD8ED4737583 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +73,34 @@
 			children = (
 				1CE640AF23E720AC000E4929 /* AppDelegate.swift */,
 				1CE640B123E720AC000E4929 /* SceneDelegate.swift */,
-				1CE640B323E720AC000E4929 /* ViewController.swift */,
+				1CE640C523E72366000E4929 /* AuthViewController.swift */,
+				1CE640C923E723D9000E4929 /* StatusViewController.swift */,
+				1CE640CB23E72406000E4929 /* Classes.swift */,
+				1CE640C723E7239C000E4929 /* Extensions.swift */,
 				1CE640B523E720AC000E4929 /* Main.storyboard */,
 				1CE640B823E720AD000E4929 /* Assets.xcassets */,
 				1CE640BA23E720AD000E4929 /* LaunchScreen.storyboard */,
+				1CE640C323E7220A000E4929 /* GoogleService-Info.plist */,
 				1CE640BD23E720AD000E4929 /* Info.plist */,
 			);
 			path = SmartBedClient;
+			sourceTree = "<group>";
+		};
+		632D9AD795CC1B74B133E7F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37C5A8164E1D0D58D5737894 /* Pods-SmartBedClient.debug.xcconfig */,
+				6409FD6C0346656F4BEB0799 /* Pods-SmartBedClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEC0384D1459FD8ED4737583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B23DE52BC68278D71A48517 /* Pods_SmartBedClient.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CE640C023E720AD000E4929 /* Build configuration list for PBXNativeTarget "SmartBedClient" */;
 			buildPhases = (
+				BEE37A637C0F31FF3038858F /* [CP] Check Pods Manifest.lock */,
 				1CE640A823E720AC000E4929 /* Sources */,
 				1CE640A923E720AC000E4929 /* Frameworks */,
 				1CE640AA23E720AC000E4929 /* Resources */,
+				113CCDD9617B2F415AC4369B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +165,66 @@
 			files = (
 				1CE640BC23E720AD000E4929 /* LaunchScreen.storyboard in Resources */,
 				1CE640B923E720AD000E4929 /* Assets.xcassets in Resources */,
+				1CE640C423E7220A000E4929 /* GoogleService-Info.plist in Resources */,
 				1CE640B723E720AC000E4929 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		113CCDD9617B2F415AC4369B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartBedClient/Pods-SmartBedClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartBedClient/Pods-SmartBedClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartBedClient/Pods-SmartBedClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE37A637C0F31FF3038858F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartBedClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CE640A823E720AC000E4929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CE640B423E720AC000E4929 /* ViewController.swift in Sources */,
 				1CE640B023E720AC000E4929 /* AppDelegate.swift in Sources */,
+				1CE640C623E72366000E4929 /* AuthViewController.swift in Sources */,
+				1CE640CC23E72406000E4929 /* Classes.swift in Sources */,
 				1CE640B223E720AC000E4929 /* SceneDelegate.swift in Sources */,
+				1CE640C823E7239C000E4929 /* Extensions.swift in Sources */,
+				1CE640CA23E723D9000E4929 /* StatusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +366,7 @@
 		};
 		1CE640C123E720AD000E4929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C5A8164E1D0D58D5737894 /* Pods-SmartBedClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,6 +378,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arandomdeveloper.SmartBedClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +386,7 @@
 		};
 		1CE640C223E720AD000E4929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6409FD6C0346656F4BEB0799 /* Pods-SmartBedClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.arandomdeveloper.SmartBedClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

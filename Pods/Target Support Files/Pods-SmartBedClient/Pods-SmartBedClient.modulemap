@@ -1,0 +1,6 @@
+framework module Pods_SmartBedClient {
+  umbrella header "Pods-SmartBedClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
